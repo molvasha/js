@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+  var celsius = +prompt("Введите температуру в градусах Цельсия");
+  fahrenheit = (9 / 5) * celsius + 32;
+  alert('Температура по Фаренгейту составляет ' + fahrenheit);
+</script>
+<script>
+  var name = "Валерия";
+  var admin;
+  admin = name;
+  console.log(admin);
+</script>
+
+<script>
+  let result = 10 + 10 + "10";
+  console.log(result);
+  result = 10 + "10" + 10;
+  console.log(result);
+  result = 10 + 10 + +"10";
+  console.log(result);
+  result = 10 / -"";
+  console.log(result);
+  result = 10 / +"2,5";
+  console.log(result);
+
+  /*
+  1. сложили 10+10=20, затем происходит конкатенация 20+"10"=2010
+  2. идет чередование числового и строчного формата, соответственно в результате будет конкатенация всех "слагаемых" без математических операций.
+  3. унарный плюс делает из строки число. Затем простая математика 10+10+10=30.
+  4. унарный минус превращает пустую строку -0, при делении 10 на -0 получается -бесконечность
+  5. унарный плюс пытается перевести 2,5 в числовой формат и получам NaN, при попытке деления числа на NaN  получаем NaN.
+   */
+</script>
+</body>
+</html>
