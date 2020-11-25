@@ -10,7 +10,7 @@ function mathOperation(a, b, operation) {
       alert(multiply(a, b));
       break;
     case "/":
-      alert(section(a, b));
+      alert(section(a,b));
       break;
   }
 }
