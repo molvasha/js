@@ -10,7 +10,7 @@ function multiply(a, b) {
   return (a * b)
 }
 
-function section(a,b) {
+function section(a, b) {
   return (a / b)
 }
 
