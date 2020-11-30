@@ -7,7 +7,7 @@ function mathOperation(a, b, operation) {
       alert(minus(a, b));
       break;
     case "*":
-      alert(multiply(a, b));
+      alert(multiply(a,b));
       break;
     case "/":
       alert(section(a,b));
